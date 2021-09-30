@@ -7,7 +7,7 @@ class Q5 {
     static {
         System.out.println("This is a static block");//will be printed before constructor statement
         //will be executed only once.
-         // will throw compile time error hence non static variable cannot be used in static method
+         n++;// will throw compile time error hence non static variable cannot be used in static method
     }
 
     public static void main(String[] args) {
